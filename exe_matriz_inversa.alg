@@ -1,20 +1,20 @@
-algoritmo "EXERCÍCIO_3x4"
-// Função :Faça um algoritmo para ler uma matriz de 3x4 de números reais e
-// depois exibir o elemento do canto superior esquerdo e do canto inferior
+algoritmo "EXERCÃCIO_MATRIZ INVERSA"
+// FunÃ§Ã£o :FaÃ§a um algoritmo para ler uma matriz de 2X3 de nÃºmeros reais e
+// depois exibir uma matriz 3x2 equivalente com os mesmos valores.
 // Autor : Saulo Suassuna
 // Data : 11/6/2022
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 mA: vetor[1..2,1..3] de real
 mB: vetor[1..3,1..2] de real
       i,j:inteiro
 
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 para i de 1 ate 2 faca
 para j de 1 ate 3 faca
-  escreva("Digite um número inteiro")
+  escreva("Digite um nÃºmero inteiro")
   leia(mA[i,j])
 
 fimpara
